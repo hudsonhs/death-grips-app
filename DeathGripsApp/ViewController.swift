@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var lyricLabel: UILabel!
     let lyricGenerator = LyricGenerator()
+    let audioGenerator = AudioGenerator()
     
     
     override func viewDidLoad() {

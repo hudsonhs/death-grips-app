@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		7A2245E71E21B20D007C97F0 /* yuh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A2245E61E21B20D007C97F0 /* yuh.mp3 */; };
-		7A2245E91E21B277007C97F0 /* AudioGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2245E81E21B277007C97F0 /* AudioGenerator.swift */; };
 		7AA2D8C21E21959500C480F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA2D8C11E21959500C480F0 /* AppDelegate.swift */; };
 		7AA2D8C41E21959500C480F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA2D8C31E21959500C480F0 /* ViewController.swift */; };
 		7AA2D8C71E21959500C480F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AA2D8C51E21959500C480F0 /* Main.storyboard */; };
@@ -21,7 +20,6 @@
 
 /* Begin PBXFileReference section */
 		7A2245E61E21B20D007C97F0 /* yuh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yuh.mp3; sourceTree = "<group>"; };
-		7A2245E81E21B277007C97F0 /* AudioGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioGenerator.swift; sourceTree = "<group>"; };
 		7AA2D8BE1E21959500C480F0 /* DeathGripsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeathGripsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AA2D8C11E21959500C480F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7AA2D8C31E21959500C480F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,7 +64,6 @@
 			children = (
 				7AA2D8C11E21959500C480F0 /* AppDelegate.swift */,
 				7AA2D8C31E21959500C480F0 /* ViewController.swift */,
-				7A2245E81E21B277007C97F0 /* AudioGenerator.swift */,
 				7A2245E61E21B20D007C97F0 /* yuh.mp3 */,
 				7AA2D8D71E21992F00C480F0 /* LyricGenerator.swift */,
 				7AA2D8D31E21966100C480F0 /* ride.png */,
@@ -155,7 +152,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A2245E91E21B277007C97F0 /* AudioGenerator.swift in Sources */,
 				7AA2D8D81E21992F00C480F0 /* LyricGenerator.swift in Sources */,
 				7AA2D8C41E21959500C480F0 /* ViewController.swift in Sources */,
 				7AA2D8C21E21959500C480F0 /* AppDelegate.swift in Sources */,
