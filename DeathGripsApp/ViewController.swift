@@ -12,7 +12,8 @@ import AVFoundation
 class ViewController: UIViewController {
     
     var player: AVAudioPlayer?
-    
+    let url = Bundle.main.url(forResource: "yuh", withExtension: "mp3")!
+
     @IBOutlet weak var lyricLabel: UILabel!
     let lyricGenerator = LyricGenerator()
     
@@ -21,6 +22,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         lyricLabel.text = lyricGenerator.getLyric()
+        do {
+            player = try AVAudioPlayer(contentsOf: url)
+            guard let player = player else { return }
+            
+            player.prepareToPlay()
+            player.play()
+        } catch let error {
+            print(error.localizedDescription)
+        }
     }
     
     override func didReceiveMemoryWarning() {
@@ -30,7 +40,7 @@ class ViewController: UIViewController {
     
     @IBAction func showLyric() {
         lyricLabel.text = lyricGenerator.getLyric()
-        let url = Bundle.main.url(forResource: "yuh", withExtension: "mp3")!
+        
         do {
             player = try AVAudioPlayer(contentsOf: url)
             guard let player = player else { return }
