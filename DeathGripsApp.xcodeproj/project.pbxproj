@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A2245E71E21B20D007C97F0 /* yuh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A2245E61E21B20D007C97F0 /* yuh.mp3 */; };
+		7A2245E91E21B277007C97F0 /* AudioGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2245E81E21B277007C97F0 /* AudioGenerator.swift */; };
+		7AA2D8C21E21959500C480F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA2D8C11E21959500C480F0 /* AppDelegate.swift */; };
+		7AA2D8C41E21959500C480F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA2D8C31E21959500C480F0 /* ViewController.swift */; };
+		7AA2D8C71E21959500C480F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AA2D8C51E21959500C480F0 /* Main.storyboard */; };
+		7AA2D8C91E21959500C480F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AA2D8C81E21959500C480F0 /* Assets.xcassets */; };
+		7AA2D8CC1E21959500C480F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AA2D8CA1E21959500C480F0 /* LaunchScreen.storyboard */; };
+		7AA2D8D41E21966100C480F0 /* ride.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AA2D8D31E21966100C480F0 /* ride.png */; };
+		7AA2D8D61E2196AC00C480F0 /* dglogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7AA2D8D51E2196AC00C480F0 /* dglogo.jpg */; };
+		7AA2D8D81E21992F00C480F0 /* LyricGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA2D8D71E21992F00C480F0 /* LyricGenerator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7A2245E61E21B20D007C97F0 /* yuh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yuh.mp3; sourceTree = "<group>"; };
+		7A2245E81E21B277007C97F0 /* AudioGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioGenerator.swift; sourceTree = "<group>"; };
+		7AA2D8BE1E21959500C480F0 /* DeathGripsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeathGripsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AA2D8C11E21959500C480F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7AA2D8C31E21959500C480F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7AA2D8C61E21959500C480F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7AA2D8C81E21959500C480F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7AA2D8CB1E21959500C480F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7AA2D8CD1E21959500C480F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AA2D8D31E21966100C480F0 /* ride.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ride.png; path = ../../../Desktop/ride.png; sourceTree = "<group>"; };
+		7AA2D8D51E2196AC00C480F0 /* dglogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dglogo.jpg; path = ../../../Desktop/dglogo.jpg; sourceTree = "<group>"; };
+		7AA2D8D71E21992F00C480F0 /* LyricGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LyricGenerator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AA2D8BB1E21959500C480F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7AA2D8B51E21959500C480F0 = {
+			isa = PBXGroup;
+			children = (
+				7AA2D8C01E21959500C480F0 /* DeathGripsApp */,
+				7AA2D8BF1E21959500C480F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7AA2D8BF1E21959500C480F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AA2D8BE1E21959500C480F0 /* DeathGripsApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AA2D8C01E21959500C480F0 /* DeathGripsApp */ = {
+			isa = PBXGroup;
+			children = (
+				7AA2D8C11E21959500C480F0 /* AppDelegate.swift */,
+				7AA2D8C31E21959500C480F0 /* ViewController.swift */,
+				7A2245E81E21B277007C97F0 /* AudioGenerator.swift */,
+				7A2245E61E21B20D007C97F0 /* yuh.mp3 */,
+				7AA2D8D71E21992F00C480F0 /* LyricGenerator.swift */,
+				7AA2D8D31E21966100C480F0 /* ride.png */,
+				7AA2D8D51E2196AC00C480F0 /* dglogo.jpg */,
+				7AA2D8C51E21959500C480F0 /* Main.storyboard */,
+				7AA2D8C81E21959500C480F0 /* Assets.xcassets */,
+				7AA2D8CA1E21959500C480F0 /* LaunchScreen.storyboard */,
+				7AA2D8CD1E21959500C480F0 /* Info.plist */,
+			);
+			path = DeathGripsApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7AA2D8BD1E21959500C480F0 /* DeathGripsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AA2D8D01E21959500C480F0 /* Build configuration list for PBXNativeTarget "DeathGripsApp" */;
+			buildPhases = (
+				7AA2D8BA1E21959500C480F0 /* Sources */,
+				7AA2D8BB1E21959500C480F0 /* Frameworks */,
+				7AA2D8BC1E21959500C480F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeathGripsApp;
+			productName = DeathGripsApp;
+			productReference = 7AA2D8BE1E21959500C480F0 /* DeathGripsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AA2D8B61E21959500C480F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Hudson Harriman-Smith";
+				TargetAttributes = {
+					7AA2D8BD1E21959500C480F0 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 56J3QWK9S3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7AA2D8B91E21959500C480F0 /* Build configuration list for PBXProject "DeathGripsApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7AA2D8B51E21959500C480F0;
+			productRefGroup = 7AA2D8BF1E21959500C480F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AA2D8BD1E21959500C480F0 /* DeathGripsApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7AA2D8BC1E21959500C480F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AA2D8D61E2196AC00C480F0 /* dglogo.jpg in Resources */,
+				7AA2D8CC1E21959500C480F0 /* LaunchScreen.storyboard in Resources */,
+				7AA2D8C91E21959500C480F0 /* Assets.xcassets in Resources */,
+				7A2245E71E21B20D007C97F0 /* yuh.mp3 in Resources */,
+				7AA2D8C71E21959500C480F0 /* Main.storyboard in Resources */,
+				7AA2D8D41E21966100C480F0 /* ride.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AA2D8BA1E21959500C480F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A2245E91E21B277007C97F0 /* AudioGenerator.swift in Sources */,
+				7AA2D8D81E21992F00C480F0 /* LyricGenerator.swift in Sources */,
+				7AA2D8C41E21959500C480F0 /* ViewController.swift in Sources */,
+				7AA2D8C21E21959500C480F0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7AA2D8C51E21959500C480F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AA2D8C61E21959500C480F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7AA2D8CA1E21959500C480F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AA2D8CB1E21959500C480F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7AA2D8CE1E21959500C480F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7AA2D8CF1E21959500C480F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AA2D8D11E21959500C480F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 56J3QWK9S3;
+				INFOPLIST_FILE = DeathGripsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.hudsonhs.DeathGripsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7AA2D8D21E21959500C480F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 56J3QWK9S3;
+				INFOPLIST_FILE = DeathGripsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.hudsonhs.DeathGripsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7AA2D8B91E21959500C480F0 /* Build configuration list for PBXProject "DeathGripsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AA2D8CE1E21959500C480F0 /* Debug */,
+				7AA2D8CF1E21959500C480F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AA2D8D01E21959500C480F0 /* Build configuration list for PBXNativeTarget "DeathGripsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AA2D8D11E21959500C480F0 /* Debug */,
+				7AA2D8D21E21959500C480F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7AA2D8B61E21959500C480F0 /* Project object */;
+}
