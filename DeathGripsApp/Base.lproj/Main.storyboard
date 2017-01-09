@@ -33,15 +33,15 @@
                                     <action selector="showLyric" destination="BYZ-38-t0r" eventType="touchDown" id="NuS-U4-hCd"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E9z-xr-R0b">
-                                <rect key="frame" x="16" y="279.5" width="343" height="108.5"/>
-                                <string key="text">You're fit to learn the proper meaning of a beatdown/ Madness, chaos in the brain/ Let my blood flow, make my blood flow through you, mane/ You got no business questioning a thang</string>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E9z-xr-R0b">
+                                <rect key="frame" x="16" y="257.5" width="343" height="152.5"/>
+                                <string key="text">You're fit to learn the proper meaning of a beatdown/ Madness, chaos in the brain/ Let my blood flow, make my blood flow through you, mane/ You got no business questioning a thang hello testing, testing testing testing testing TESTING! TESTING! Ok eight lines is enough</string>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dglogo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="CWy-QG-rNY">
-                                <rect key="frame" x="16" y="28" width="343" height="128.5"/>
+                                <rect key="frame" x="16" y="28" width="343" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="CWy-QG-rNY" secondAttribute="height" multiplier="343:128" id="vDg-RB-yPu"/>
                                 </constraints>
