@@ -32,24 +32,29 @@
                                     <action selector="showLyric" destination="BYZ-38-t0r" eventType="touchDown" id="NuS-U4-hCd"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E9z-xr-R0b">
-                                <rect key="frame" x="16" y="254" width="343" height="159"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E9z-xr-R0b">
+                                <rect key="frame" x="16" y="279.5" width="343" height="108.5"/>
                                 <string key="text">You're fit to learn the proper meaning of a beatdown/ Madness, chaos in the brain/ Let my blood flow, make my blood flow through you, mane/ You got no business questioning a thang</string>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dglogo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="CWy-QG-rNY">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="dglogo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="CWy-QG-rNY">
                                 <rect key="frame" x="16" y="28" width="343" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="uvF-kE-Upo" secondAttribute="bottom" constant="68" id="2gg-mV-gwI"/>
+                            <constraint firstItem="CWy-QG-rNY" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="8q8-aX-Xon"/>
+                            <constraint firstItem="CWy-QG-rNY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BCA-CQ-0cD"/>
                             <constraint firstAttribute="trailingMargin" secondItem="uvF-kE-Upo" secondAttribute="trailing" constant="145" id="FDl-c9-M3n"/>
+                            <constraint firstItem="CWy-QG-rNY" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="FZe-wj-F2u"/>
+                            <constraint firstItem="E9z-xr-R0b" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="I2t-wL-4Uy"/>
+                            <constraint firstItem="CWy-QG-rNY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Lyc-o7-K36"/>
                             <constraint firstItem="uvF-kE-Upo" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="144" id="ctd-hf-rhj"/>
+                            <constraint firstItem="E9z-xr-R0b" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="e9D-Za-0TJ"/>
+                            <constraint firstItem="E9z-xr-R0b" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="rmX-e8-uWz"/>
                         </constraints>
                     </view>
                     <connections>

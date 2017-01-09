@@ -8,18 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		7A2245E71E21B20D007C97F0 /* yuh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A2245E61E21B20D007C97F0 /* yuh.mp3 */; };
+		7A757FEE1E235554009C11DB /* ride.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A757FED1E235554009C11DB /* ride.png */; };
+		7A757FF01E23555D009C11DB /* dglogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A757FEF1E23555D009C11DB /* dglogo.jpg */; };
 		7AA2D8C21E21959500C480F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA2D8C11E21959500C480F0 /* AppDelegate.swift */; };
 		7AA2D8C41E21959500C480F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA2D8C31E21959500C480F0 /* ViewController.swift */; };
 		7AA2D8C71E21959500C480F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AA2D8C51E21959500C480F0 /* Main.storyboard */; };
 		7AA2D8C91E21959500C480F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AA2D8C81E21959500C480F0 /* Assets.xcassets */; };
 		7AA2D8CC1E21959500C480F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AA2D8CA1E21959500C480F0 /* LaunchScreen.storyboard */; };
-		7AA2D8D41E21966100C480F0 /* ride.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AA2D8D31E21966100C480F0 /* ride.png */; };
-		7AA2D8D61E2196AC00C480F0 /* dglogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7AA2D8D51E2196AC00C480F0 /* dglogo.jpg */; };
 		7AA2D8D81E21992F00C480F0 /* LyricGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA2D8D71E21992F00C480F0 /* LyricGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7A2245E61E21B20D007C97F0 /* yuh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yuh.mp3; sourceTree = "<group>"; };
+		7A757FED1E235554009C11DB /* ride.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ride.png; sourceTree = "<group>"; };
+		7A757FEF1E23555D009C11DB /* dglogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dglogo.jpg; sourceTree = "<group>"; };
 		7AA2D8BE1E21959500C480F0 /* DeathGripsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeathGripsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AA2D8C11E21959500C480F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7AA2D8C31E21959500C480F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,8 +29,6 @@
 		7AA2D8C81E21959500C480F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AA2D8CB1E21959500C480F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7AA2D8CD1E21959500C480F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7AA2D8D31E21966100C480F0 /* ride.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ride.png; path = ../../../Desktop/ride.png; sourceTree = "<group>"; };
-		7AA2D8D51E2196AC00C480F0 /* dglogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dglogo.jpg; path = ../../../Desktop/dglogo.jpg; sourceTree = "<group>"; };
 		7AA2D8D71E21992F00C480F0 /* LyricGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LyricGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,9 +65,9 @@
 				7AA2D8C11E21959500C480F0 /* AppDelegate.swift */,
 				7AA2D8C31E21959500C480F0 /* ViewController.swift */,
 				7A2245E61E21B20D007C97F0 /* yuh.mp3 */,
+				7A757FEF1E23555D009C11DB /* dglogo.jpg */,
+				7A757FED1E235554009C11DB /* ride.png */,
 				7AA2D8D71E21992F00C480F0 /* LyricGenerator.swift */,
-				7AA2D8D31E21966100C480F0 /* ride.png */,
-				7AA2D8D51E2196AC00C480F0 /* dglogo.jpg */,
 				7AA2D8C51E21959500C480F0 /* Main.storyboard */,
 				7AA2D8C81E21959500C480F0 /* Assets.xcassets */,
 				7AA2D8CA1E21959500C480F0 /* LaunchScreen.storyboard */,
@@ -136,12 +136,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AA2D8D61E2196AC00C480F0 /* dglogo.jpg in Resources */,
 				7AA2D8CC1E21959500C480F0 /* LaunchScreen.storyboard in Resources */,
+				7A757FEE1E235554009C11DB /* ride.png in Resources */,
 				7AA2D8C91E21959500C480F0 /* Assets.xcassets in Resources */,
+				7A757FF01E23555D009C11DB /* dglogo.jpg in Resources */,
 				7A2245E71E21B20D007C97F0 /* yuh.mp3 in Resources */,
 				7AA2D8C71E21959500C480F0 /* Main.storyboard in Resources */,
-				7AA2D8D41E21966100C480F0 /* ride.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
